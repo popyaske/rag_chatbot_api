@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+../../.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+indexes/
+*.faiss
+*.pkl
+*.parquet
+data/knowledge_base/*.pdf
+data/knowledge_base/*.txt
+data/knowledge_base/*.md
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ollama
+ollama_models/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Uploads
+uploads/
+temp/
+EOF
